@@ -1,0 +1,10 @@
+region        = "eu-west-2"
+instance_type = "t3.large"
+ami_id        = "ami-0acc77abdfc7ed5a6"
+environment   = "uat"
+vpc_id        = "vpc-071a935c677dbb90c"
+key_name      = "tutorial-key"
+desired_capacity = 3
+max_size = 6
+min_size = 3
+subnets = ["subnet-0ac8b28d64573460b", "subnet-08b711d075f9a142a", "subnet-0a66a5cfe19424c28"]
